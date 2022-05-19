@@ -1,0 +1,20 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.search-results {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    border: 1px solid #CBD5E1;
+    border-radius: 20px;
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 50px auto;
+}

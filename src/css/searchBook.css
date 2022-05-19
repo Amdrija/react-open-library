@@ -1,0 +1,31 @@
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.searchBook {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #CBD5E1;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.searchBook div {
+    padding: 1rem;
+}
+
+.searchBook img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.searchBook h2 {
+    font-size: 1.2rem;
+}
+
+.searchBook h3 {
+    font-size: 0.875rem;
+    color: #94A3B8;
+}
